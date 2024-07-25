@@ -1,0 +1,50 @@
+body{
+    background-color: gray;
+}
+#left-aligned {
+    display: flex;
+    justify-content: start;
+}
+#center-aligned {
+    display: flex;
+    justify-content: center;
+}
+#right-aligned {
+    display: flex;
+    justify-content: end;
+}
+#green {
+    color: rgb(74, 172, 74)
+}
+#butchet{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#big {
+    font-size: 50px;
+    margin: 1px;
+}
+#small{
+    font-size: 10px;
+    color: white;
+}
+div {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    align-self: center;
+    margin: 0 auto;
+    display: block;
+}
+button {
+    display: flex;
+    text-align: center;
+    background-color: rgba(58, 134, 39, 0.7);
+    width: 150px;
+    height: 50px;
+    border-color: rgba(58, 134, 39, 0.7);
+    padding-left: 60px;
+    padding-top: 15px;
+    margin-left: 80px;
+    font-size: medium;
+    color: white;
+}
